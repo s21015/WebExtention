@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+html {
+	font-size: 16px;
+}
+
+body {
+	line-height: 1.7;
+}
+
+a:hover {
+	color: #b7dbf2;
+}
+
+a:active {
+	color: #4ca4e8;
+}
+
+#font1 {
+	font-size: 1.7rem;
+}
+
+.dept-header {
+	margin: 0 0 1.8rem 0;
+	display: flex;
+}
+
+.dept-header .dept-header-title {
+	flex: 0 1 50%;
+	padding: 1.4rem;
+	color: #fff;
+	background-color: #ed5405;
+}
+
+.dept-header .dept-header-title .dept-header-name {
+	font-size: 1.6rem;
+	line-height: 1em;
+	margin: 0;
+}
+
+.dept-header .dept-header-title .dept-header-name small {
+	display: block;
+	margin-top: 0.2rem;
+	font-size: 1.2rem;
+}
+
+.dept-header .dept-header-title .dept-header-detail {
+	margin: 1.4rem 0;
+}
+
+.dept-header .dept-header-title .dept-header-detail span {
+	color: #333;
+	background-color: #fff;
+	padding: 0.5rem;
+}
+
+.dept-header .dept-header-img {
+	flex: 0 1 50%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.dept-header.dept-cs .dept-header-title {
+	background-color: #0081ba;
+}
+
+.dept-header.dept-cs .dept-header-title .dept-header-detail span {
+	color: #0081ba;
+}
+
+.dept-header.dept-is .dept-header-title {
+	background-color: #014099;
+}
+
+.dept-header.dept-is .dept-header-title .dept-header-detail span {
+	color: #014099;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.2rem;
+	color: #1e90ff;
+}
+
+.give-pc {
+	position: relative;
+	margin: 3rem 0;
+	padding: 2rem 1rem 1rem 1rem;
+	background-color: #ffecb3;
+	border-radius: 4px;
+}
+
+.row {
+	display: flex;
+	flex-wrap;
+}
+
+.col {
+	position: relative;
+	min-height: 1px;
+	padding-right: .9375rem;
+	padding-left: .9375rem;
+	margin: 0;
+	padding: 0;
+	padding: 0 5px;
+}
+
+.give-pc .give-pc-img {
+	position: absolute;
+	width: 200px;
+	height: auto;
+	right: 1rem;
+	top: -2rem;
+}
+
+.give-pc h4 {
+	position: absolute; 
+	font-size: 1rem;
+	color: #fff;
+	background-color: #000;
+	padding: 0.4rem;
+	left: 1rem;
+	top: -1rem;
+	transform: rotate(-7deg);
+	margin: 0rem 0;
+}
+
+.col-md-1 {
+	margin: 0;
+	padding: 0;
+}
