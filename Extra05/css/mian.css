@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.redbox {
+    background-color: rosybrown;
+    height: 200px;
+}
+
+.bluebox {
+    background-color: antiquewhite;
+    height: 200px;
+}
+
+.yellowbox {
+    background-color: springgreen;
+    height: 200px;
+}
+
+.pinkbox {
+    background-color: pink;
+    height: 200px;
+}
+
+.alicebluebox {
+    background-color: aliceblue;
+    height: 200px;
+}
